@@ -7,7 +7,7 @@
 <meta name="description" content="Seer Notes is a fast, private notes and journal app for Android. No account, works offline, encrypted backups to your own storage, and optional AI with your own key.">
 <meta name="theme-color" content="#D35F3F">
 <meta property="og:title" content="Seer Notes: private notes that stay on your phone">
-<meta property="og:description" content="Notes, journal, checklists, voice, scans, habits and family health records. No account. Works offline.">
+<meta property="og:description" content="Notes, journal, checklists, voice, scans and habits. No account. Works offline.">
 <meta property="og:image" content="img/feature-graphic.png">
 <link rel="icon" href="img/icon.png">
 <link rel="stylesheet" href="style.css">
@@ -32,7 +32,7 @@
 <section class="hero">
   <div class="wrap">
     <div>
-      <p class="eyebrow">Notes · Journal · Tasks · Health records</p>
+      <p class="eyebrow">Notes · Journal · Tasks · Habits</p>
       <h1>Private notes that stay on your phone.</h1>
       <p class="lead">A calm, fast notes app for Android. No account, no sign-in, no ads and no servers. Everything works offline.</p>
       <div class="cta">
@@ -72,7 +72,6 @@
       <a href="#organize">Notebooks &amp; links</a>
       <a href="#study">Study</a>
       <a href="#habits">Habits &amp; progress</a>
-      <a href="#health">Health records</a>
       <a href="#vault">Vault &amp; app lock</a>
       <a href="#backup">Backup &amp; export</a>
       <a href="#ai">Optional AI</a>
@@ -307,33 +306,8 @@
   </div>
 </section>
 
-<!-- Health -->
-<section class="feature flip" id="health">
-  <div class="wrap">
-    <div class="text">
-      <span class="tag" style="background:var(--rose)">Health records</span>
-      <h2>Your family's doctor visits, in order</h2>
-      <p class="intro">Keep everyone's visits, medicines and prescriptions together, for yourself, your children and your parents. Free for everyone.</p>
-      <ul class="ticks">
-        <li>A timeline for each person: date, doctor, clinic, symptoms, diagnosis and notes.</li>
-        <li>Medicines with dose, how often and for how many days, with a “Taking now” list.</li>
-        <li>Photos or scans of prescriptions, reports and bills, with the text in them made searchable.</li>
-        <li>Health basics at a glance: blood group, allergies, long-term conditions and an emergency contact.</li>
-        <li>Follow-up reminders that only say “Follow-up visit” and a name, never medical details.</li>
-        <li>Share a person's history, or one visit, as a tidy PDF for a new doctor.</li>
-        <li>Lock Health records with your fingerprint or app PIN.</li>
-      </ul>
-      <p class="note">Health records are kept apart from your notes: they never appear in home, search, widgets or notifications, and are never sent to AI. Seer Notes keeps records; it does not give medical advice.</p>
-    </div>
-    <div class="shots">
-      <div class="phone sm"><img src="img/health-people.webp" alt="Health records listing three family members with their visit counts" loading="lazy" width="540" height="1230"></div>
-      <div class="phone sm"><img src="img/health.webp" alt="A person's health page with blood group, allergies and their latest visit" loading="lazy" width="540" height="1230"></div>
-    </div>
-  </div>
-</section>
-
 <!-- Vault -->
-<section class="feature" id="vault">
+<section class="feature flip" id="vault">
   <div class="wrap">
     <div class="text">
       <span class="tag" style="background:var(--clay)">Vault &amp; app lock</span>
@@ -352,7 +326,7 @@
 </section>
 
 <!-- Backup -->
-<section class="feature flip" id="backup">
+<section class="feature" id="backup">
   <div class="wrap">
     <div class="text">
       <span class="tag" style="background:var(--slate)">Backup &amp; export</span>
@@ -373,7 +347,7 @@
 </section>
 
 <!-- AI -->
-<section class="feature" id="ai">
+<section class="feature flip" id="ai">
   <div class="wrap">
     <div class="text">
       <span class="tag" style="background:var(--terracotta)">Optional AI</span>
@@ -388,7 +362,7 @@
         <li>Smart search that finds notes by meaning (Gemini), off until you turn it on.</li>
         <li>Journal AI: a weekly reflection and personal prompts, only if you switch it on.</li>
       </ul>
-      <p class="note">With no key, no AI buttons appear at all. Your key is stored encrypted on your phone and never goes into backups. Vault notes and health records are never sent.</p>
+      <p class="note">With no key, no AI buttons appear at all. Your key is stored encrypted on your phone and never goes into backups. Vault notes are never sent.</p>
     </div>
     <div class="shots"><div class="phone"><img src="img/ai.webp" alt="AI assistant settings: choose Gemini, Grok or Groq and paste your own key" loading="lazy" width="540" height="1230"></div></div>
   </div>
@@ -424,10 +398,10 @@
       <p><a class="btn" href="privacy.html">Read the full privacy policy</a></p>
     </div>
     <ul class="ticks">
-      <li>Notes, journal, photos, recordings and health records are stored only on your phone.</li>
+      <li>Notes, journal, photos and recordings are stored only on your phone.</li>
       <li>Backups go straight from your phone to storage you chose, encrypted with your password.</li>
       <li>AI is off until you add your own key, and then only runs when you tap.</li>
-      <li>Vault notes and health records are never sent to AI.</li>
+      <li>Vault notes are never sent to AI.</li>
       <li>Text recognition, scanning, handwriting and speech to text run on your phone.</li>
     </ul>
   </div>
@@ -442,7 +416,6 @@
     <details><summary>Can you read my notes?</summary><p>No. We have no servers and no account system, so your notes never reach us.</p></details>
     <details><summary>Does it work in Urdu?</summary><p>Yes. The app can be fully in Urdu, Urdu notes use Nastaliq script, and voice typing and journal prompts support Urdu too. On-device Urdu speech recognition depends on your phone.</p></details>
     <details><summary>Which phones are supported?</summary><p>Android phones running Android 7.0 or newer.</p></details>
-    <details><summary>Is Health records medical advice?</summary><p>No. It's a private place to keep your own records of visits, medicines and prescriptions. Always follow your doctor's advice.</p></details>
   </div>
 </section>
 
